@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HHJNetworkDetect : NSObject
 
+/// 判断是否开启了代理
++ (BOOL)checkProxySetting;
+
 @end
 
 NS_ASSUME_NONNULL_END
