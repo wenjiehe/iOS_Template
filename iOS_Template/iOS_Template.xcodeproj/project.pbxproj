@@ -106,6 +106,10 @@
 		3D026CC726F7A61600F671E5 /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026C8126F7A61500F671E5 /* SDDisplayLink.m */; };
 		3D026CC826F7A61600F671E5 /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026C8326F7A61500F671E5 /* SDAsyncBlockOperation.m */; };
 		3D026CC926F7A61600F671E5 /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026C8426F7A61500F671E5 /* SDAssociatedObject.m */; };
+		3D026CCC26F846B600F671E5 /* HHJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CCB26F846B600F671E5 /* HHJBaseViewController.m */; };
+		3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CCE26F84ADF00F671E5 /* HHJUserInstance.m */; };
+		3D026CD826F85C4900F671E5 /* HHJUtilService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CD726F85C4900F671E5 /* HHJUtilService.m */; };
+		3D026CDB26F8D24B00F671E5 /* HHJPasswordCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CDA26F8D24A00F671E5 /* HHJPasswordCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,6 +320,20 @@
 		3D026C8226F7A61500F671E5 /* SDImageAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageAssetManager.h; sourceTree = "<group>"; };
 		3D026C8326F7A61500F671E5 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAsyncBlockOperation.m; sourceTree = "<group>"; };
 		3D026C8426F7A61500F671E5 /* SDAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAssociatedObject.m; sourceTree = "<group>"; };
+		3D026CCA26F846B600F671E5 /* HHJBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJBaseViewController.h; sourceTree = "<group>"; };
+		3D026CCB26F846B600F671E5 /* HHJBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJBaseViewController.m; sourceTree = "<group>"; };
+		3D026CCD26F84ADF00F671E5 /* HHJUserInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJUserInstance.h; sourceTree = "<group>"; };
+		3D026CCE26F84ADF00F671E5 /* HHJUserInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJUserInstance.m; sourceTree = "<group>"; };
+		3D026CD026F855C200F671E5 /* HHJKeyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJKeyMacro.h; sourceTree = "<group>"; };
+		3D026CD126F8571B00F671E5 /* HHJPathMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJPathMacro.h; sourceTree = "<group>"; };
+		3D026CD226F8588500F671E5 /* HHJAPIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJAPIMacro.h; sourceTree = "<group>"; };
+		3D026CD326F858D100F671E5 /* HHJNotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJNotificationMacro.h; sourceTree = "<group>"; };
+		3D026CD426F858F200F671E5 /* HHJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJMacro.h; sourceTree = "<group>"; };
+		3D026CD526F8596600F671E5 /* HHJGlobalConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJGlobalConstant.h; sourceTree = "<group>"; };
+		3D026CD626F85C4900F671E5 /* HHJUtilService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJUtilService.h; sourceTree = "<group>"; };
+		3D026CD726F85C4900F671E5 /* HHJUtilService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJUtilService.m; sourceTree = "<group>"; };
+		3D026CD926F8D24A00F671E5 /* HHJPasswordCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJPasswordCheck.h; sourceTree = "<group>"; };
+		3D026CDA26F8D24A00F671E5 /* HHJPasswordCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJPasswordCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +509,12 @@
 		3D026B6A26F79D3E00F671E5 /* WJ_Macro */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CD026F855C200F671E5 /* HHJKeyMacro.h */,
+				3D026CD126F8571B00F671E5 /* HHJPathMacro.h */,
+				3D026CD226F8588500F671E5 /* HHJAPIMacro.h */,
+				3D026CD326F858D100F671E5 /* HHJNotificationMacro.h */,
+				3D026CD426F858F200F671E5 /* HHJMacro.h */,
+				3D026CD526F8596600F671E5 /* HHJGlobalConstant.h */,
 			);
 			path = WJ_Macro;
 			sourceTree = "<group>";
@@ -674,6 +698,8 @@
 		3D026B8126F79D3E00F671E5 /* WJ_UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CCD26F84ADF00F671E5 /* HHJUserInstance.h */,
+				3D026CCE26F84ADF00F671E5 /* HHJUserInstance.m */,
 			);
 			path = WJ_UserCenter;
 			sourceTree = "<group>";
@@ -705,6 +731,8 @@
 		3D026B8526F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CCA26F846B600F671E5 /* HHJBaseViewController.h */,
+				3D026CCB26F846B600F671E5 /* HHJBaseViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -779,6 +807,8 @@
 		3D026BDC26F7A17A00F671E5 /* GlobalUtils */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CD626F85C4900F671E5 /* HHJUtilService.h */,
+				3D026CD726F85C4900F671E5 /* HHJUtilService.m */,
 			);
 			path = GlobalUtils;
 			sourceTree = "<group>";
@@ -828,6 +858,8 @@
 		3D026BE326F7A17A00F671E5 /* Encrypt */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CD926F8D24A00F671E5 /* HHJPasswordCheck.h */,
+				3D026CDA26F8D24A00F671E5 /* HHJPasswordCheck.m */,
 			);
 			path = Encrypt;
 			sourceTree = "<group>";
@@ -1138,6 +1170,7 @@
 				3D026C9126F7A61500F671E5 /* SDImageAWebPCoder.m in Sources */,
 				3D026CC926F7A61600F671E5 /* SDAssociatedObject.m in Sources */,
 				3D026CAB26F7A61500F671E5 /* SDImageFrame.m in Sources */,
+				3D026CCC26F846B600F671E5 /* HHJBaseViewController.m in Sources */,
 				3D026C9D26F7A61500F671E5 /* SDWebImageCompat.m in Sources */,
 				3D026C9726F7A61500F671E5 /* SDWebImageIndicator.m in Sources */,
 				3D026C8F26F7A61500F671E5 /* SDAnimatedImageView.m in Sources */,
@@ -1145,6 +1178,7 @@
 				3D026B8C26F79D3F00F671E5 /* NSArray+MASAdditions.m in Sources */,
 				3D026C8726F7A61500F671E5 /* SDAnimatedImageView+WebCache.m in Sources */,
 				3D026CBC26F7A61500F671E5 /* UIImage+Metadata.m in Sources */,
+				3D026CD826F85C4900F671E5 /* HHJUtilService.m in Sources */,
 				3D026C9A26F7A61500F671E5 /* SDImageCodersManager.m in Sources */,
 				3D026BF226F7A48C00F671E5 /* HHJNetworkDetect.m in Sources */,
 				3D026C9B26F7A61500F671E5 /* UIImage+MultiFormat.m in Sources */,
@@ -1186,12 +1220,14 @@
 				3D026C9626F7A61500F671E5 /* SDWebImageCacheSerializer.m in Sources */,
 				3D026B8E26F79D3F00F671E5 /* MASConstraint.m in Sources */,
 				3D026C9926F7A61500F671E5 /* UIImage+GIF.m in Sources */,
+				3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */,
 				3D026CA926F7A61500F671E5 /* SDImageCache.m in Sources */,
 				3D026CC826F7A61600F671E5 /* SDAsyncBlockOperation.m in Sources */,
 				3D026CBB26F7A61500F671E5 /* UIView+WebCache.m in Sources */,
 				3D026B9326F79D3F00F671E5 /* YYClassInfo.m in Sources */,
 				3D026B8726F79D3F00F671E5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				3D026CB626F7A61500F671E5 /* SDImageCacheConfig.m in Sources */,
+				3D026CDB26F8D24B00F671E5 /* HHJPasswordCheck.m in Sources */,
 				3D026CC126F7A61600F671E5 /* SDImageAssetManager.m in Sources */,
 				3D026CA426F7A61500F671E5 /* SDImageIOCoder.m in Sources */,
 				3D026B8B26F79D3F00F671E5 /* MASLayoutConstraint.m in Sources */,
@@ -1345,15 +1381,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
 				INFOPLIST_FILE = iOS_Template/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hewenjie.iOS-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1363,15 +1402,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
 				INFOPLIST_FILE = iOS_Template/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hewenjie.iOS-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hewenjie.allFunctions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allFunctions;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
