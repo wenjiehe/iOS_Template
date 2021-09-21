@@ -12,9 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HHJContext : NSObject
 
-//当前显示的控制器
+/// 当前显示的控制器
 + (UIViewController *)getCurrentVC;
 
+/// 微服务
+/// @param name 协议名
 + (id)findServerName:(NSString *)name;
 
 @end

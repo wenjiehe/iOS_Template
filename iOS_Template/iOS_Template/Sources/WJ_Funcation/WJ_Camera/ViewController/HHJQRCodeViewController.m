@@ -21,6 +21,10 @@
     self.view.backgroundColor = [UIColor blueColor];
 }
 
+- (void)dealloc{
+    HHJLog(@"");
+}
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     HHJLog(@"viewControllers = %@", HHJContext.getCurrentVC.navigationController.viewControllers);
 }

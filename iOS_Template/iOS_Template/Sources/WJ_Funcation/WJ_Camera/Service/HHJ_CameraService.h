@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HHJ_CameraProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHJ_CameraService : NSObject
+@interface HHJ_CameraService : NSObject<HHJ_CameraProtocol>
 
 @end
 

@@ -8,6 +8,7 @@
 #import "HHJLoginViewController.h"
 #import "Masonry.h"
 #import "HHJContext.h"
+#import "HHJGlobalConstant.h"
 
 @interface HHJLoginViewController ()
 
@@ -23,6 +24,10 @@
     self.view.backgroundColor = [UIColor yellowColor];
     
     [self initUI];
+}
+
+- (void)dealloc{
+    HHJLog(@"");
 }
 
 - (void)initUI{

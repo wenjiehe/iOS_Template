@@ -17,9 +17,9 @@
     login.successBlock = loginSuccess;
     login.processBlock = pageProcessSuccess;
     if (HHJContext.getCurrentVC.navigationController) {
-        [HHJContext.getCurrentVC.navigationController pushViewController:login animated:YES];
+        [HHJContext.getCurrentVC.navigationController pushViewController:login animated:animated];
     }else{
-        [HHJContext.getCurrentVC presentViewController:login animated:YES completion:^{
+        [HHJContext.getCurrentVC presentViewController:login animated:animated completion:^{
             
         }];
     }

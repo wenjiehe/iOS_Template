@@ -9,7 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^HHJQRCodeBlock)(NSString *qrcodeString, NSString *source, NSDictionary *extendInfo);
+
 @interface HHJQRCodeViewController : HHJBaseViewController
+
+@property(nonatomic,strong)NSDictionary *extendInfo;
+@property(nonatomic,copy)HHJQRCodeBlock block;
 
 @end
 
