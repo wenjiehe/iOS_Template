@@ -110,6 +110,12 @@
 		3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CCE26F84ADF00F671E5 /* HHJUserInstance.m */; };
 		3D026CD826F85C4900F671E5 /* HHJUtilService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CD726F85C4900F671E5 /* HHJUtilService.m */; };
 		3D026CDB26F8D24B00F671E5 /* HHJPasswordCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CDA26F8D24A00F671E5 /* HHJPasswordCheck.m */; };
+		3D026CDE26F8DBF700F671E5 /* HHJLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CDD26F8DBF600F671E5 /* HHJLocationManager.m */; };
+		3D026CE326F8E19700F671E5 /* FixedCoordinatesUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CE226F8E19600F671E5 /* FixedCoordinatesUtil.m */; };
+		3D026CEA26F9123D00F671E5 /* HHJ_LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CE926F9123D00F671E5 /* HHJ_LoginService.m */; };
+		3D026CED26F9128600F671E5 /* HHJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CEC26F9128600F671E5 /* HHJLoginViewController.m */; };
+		3D026CF126F913B000F671E5 /* HHJContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF026F913B000F671E5 /* HHJContext.m */; };
+		3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -334,6 +340,19 @@
 		3D026CD726F85C4900F671E5 /* HHJUtilService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJUtilService.m; sourceTree = "<group>"; };
 		3D026CD926F8D24A00F671E5 /* HHJPasswordCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJPasswordCheck.h; sourceTree = "<group>"; };
 		3D026CDA26F8D24A00F671E5 /* HHJPasswordCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJPasswordCheck.m; sourceTree = "<group>"; };
+		3D026CDC26F8DBF600F671E5 /* HHJLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJLocationManager.h; sourceTree = "<group>"; };
+		3D026CDD26F8DBF600F671E5 /* HHJLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJLocationManager.m; sourceTree = "<group>"; };
+		3D026CE126F8E19600F671E5 /* FixedCoordinatesUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedCoordinatesUtil.h; sourceTree = "<group>"; };
+		3D026CE226F8E19600F671E5 /* FixedCoordinatesUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedCoordinatesUtil.m; sourceTree = "<group>"; };
+		3D026CE626F9118B00F671E5 /* HHJ_LoginProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_LoginProtocol.h; sourceTree = "<group>"; };
+		3D026CE826F9123D00F671E5 /* HHJ_LoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_LoginService.h; sourceTree = "<group>"; };
+		3D026CE926F9123D00F671E5 /* HHJ_LoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_LoginService.m; sourceTree = "<group>"; };
+		3D026CEB26F9128600F671E5 /* HHJLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJLoginViewController.h; sourceTree = "<group>"; };
+		3D026CEC26F9128600F671E5 /* HHJLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJLoginViewController.m; sourceTree = "<group>"; };
+		3D026CEF26F913B000F671E5 /* HHJContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJContext.h; sourceTree = "<group>"; };
+		3D026CF026F913B000F671E5 /* HHJContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJContext.m; sourceTree = "<group>"; };
+		3D026CF226F9A6FE00F671E5 /* HHJQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJQRCodeViewController.h; sourceTree = "<group>"; };
+		3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJQRCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +406,7 @@
 		3D026ABF26F79D3D00F671E5 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CE026F8E19600F671E5 /* FixedCoordinatesUtil */,
 				3D026AC026F79D3D00F671E5 /* Masonry */,
 				3D026ADB26F79D3D00F671E5 /* YYModel */,
 				3D026AE126F79D3D00F671E5 /* MBProgressHUD */,
@@ -591,6 +611,8 @@
 		3D026B7326F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CF226F9A6FE00F671E5 /* HHJQRCodeViewController.h */,
+				3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -598,6 +620,7 @@
 		3D026B7426F79D3E00F671E5 /* WJ_Login */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CE726F911FD00F671E5 /* Service */,
 				3D026B7526F79D3E00F671E5 /* Resources */,
 				3D026B7626F79D3E00F671E5 /* ViewController */,
 			);
@@ -614,6 +637,8 @@
 		3D026B7626F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CEB26F9128600F671E5 /* HHJLoginViewController.h */,
+				3D026CEC26F9128600F671E5 /* HHJLoginViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -783,6 +808,8 @@
 		3D026BDA26F7A17A00F671E5 /* WJ_PublicComponent */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CEE26F9139700F671E5 /* Context */,
+				3D026CE426F8F82400F671E5 /* ServiceProtocols */,
 				3D026BDB26F7A17A00F671E5 /* MediaUtils */,
 				3D026BDC26F7A17A00F671E5 /* GlobalUtils */,
 				3D026BDD26F7A17A00F671E5 /* Category */,
@@ -830,6 +857,8 @@
 		3D026BDF26F7A17A00F671E5 /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CDC26F8DBF600F671E5 /* HHJLocationManager.h */,
+				3D026CDD26F8DBF600F671E5 /* HHJLocationManager.m */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -1070,6 +1099,41 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		3D026CE026F8E19600F671E5 /* FixedCoordinatesUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3D026CE126F8E19600F671E5 /* FixedCoordinatesUtil.h */,
+				3D026CE226F8E19600F671E5 /* FixedCoordinatesUtil.m */,
+			);
+			path = FixedCoordinatesUtil;
+			sourceTree = "<group>";
+		};
+		3D026CE426F8F82400F671E5 /* ServiceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				3D026CE626F9118B00F671E5 /* HHJ_LoginProtocol.h */,
+			);
+			path = ServiceProtocols;
+			sourceTree = "<group>";
+		};
+		3D026CE726F911FD00F671E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D026CE826F9123D00F671E5 /* HHJ_LoginService.h */,
+				3D026CE926F9123D00F671E5 /* HHJ_LoginService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3D026CEE26F9139700F671E5 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				3D026CEF26F913B000F671E5 /* HHJContext.h */,
+				3D026CF026F913B000F671E5 /* HHJContext.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1159,13 +1223,17 @@
 				3D026AAE26F78FA600F671E5 /* ViewController.m in Sources */,
 				3D026CA626F7A61500F671E5 /* SDAnimatedImageRep.m in Sources */,
 				3D026CC226F7A61600F671E5 /* SDDeviceHelper.m in Sources */,
+				3D026CE326F8E19700F671E5 /* FixedCoordinatesUtil.m in Sources */,
 				3D026CA026F7A61500F671E5 /* SDWebImageError.m in Sources */,
 				3D026AA826F78FA600F671E5 /* AppDelegate.m in Sources */,
 				3D026C8826F7A61500F671E5 /* SDImageCoder.m in Sources */,
+				3D026CEA26F9123D00F671E5 /* HHJ_LoginService.m in Sources */,
 				3D026CC426F7A61600F671E5 /* SDInternalMacros.m in Sources */,
 				3D026B9726F79D3F00F671E5 /* AFURLSessionManager.m in Sources */,
 				3D026C9826F7A61500F671E5 /* SDGraphicsImageRenderer.m in Sources */,
 				3D026CAA26F7A61500F671E5 /* SDImageGIFCoder.m in Sources */,
+				3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */,
+				3D026CED26F9128600F671E5 /* HHJLoginViewController.m in Sources */,
 				3D026CAE26F7A61500F671E5 /* SDImageCachesManager.m in Sources */,
 				3D026C9126F7A61500F671E5 /* SDImageAWebPCoder.m in Sources */,
 				3D026CC926F7A61600F671E5 /* SDAssociatedObject.m in Sources */,
@@ -1203,6 +1271,7 @@
 				3D026CA726F7A61500F671E5 /* UIImage+ExtendedCacheData.m in Sources */,
 				3D026CA326F7A61500F671E5 /* NSButton+WebCache.m in Sources */,
 				3D026CBF26F7A61500F671E5 /* UIColor+SDHexString.m in Sources */,
+				3D026CDE26F8DBF700F671E5 /* HHJLocationManager.m in Sources */,
 				3D026CB726F7A61500F671E5 /* SDWebImageCacheKeyFilter.m in Sources */,
 				3D026B8926F79D3F00F671E5 /* MASCompositeConstraint.m in Sources */,
 				3D026C9026F7A61500F671E5 /* UIImage+ForceDecode.m in Sources */,
@@ -1219,6 +1288,7 @@
 				3D026CB126F7A61500F671E5 /* NSData+ImageContentType.m in Sources */,
 				3D026C9626F7A61500F671E5 /* SDWebImageCacheSerializer.m in Sources */,
 				3D026B8E26F79D3F00F671E5 /* MASConstraint.m in Sources */,
+				3D026CF126F913B000F671E5 /* HHJContext.m in Sources */,
 				3D026C9926F7A61500F671E5 /* UIImage+GIF.m in Sources */,
 				3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */,
 				3D026CA926F7A61500F671E5 /* SDImageCache.m in Sources */,

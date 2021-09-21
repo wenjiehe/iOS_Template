@@ -7,6 +7,9 @@
 
 #import "ViewController.h"
 #import "HHJUtilService.h"
+#import "HHJ_LoginService.h"
+#import "HHJContext.h"
+#import "HHJQRCodeViewController.h"
 
 @interface ViewController ()
 
@@ -25,8 +28,14 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [HHJUtilService getNetworkStatus:^(NSString * _Nonnull status) {
-        NSLog(@"status = %@", status);
+    id<HHJ_LoginProtocol> loginService = [HHJContext findServerName:@"HHJ_LoginProtocol"];
+    [loginService startLogin:@{} animated:YES loginSuccess:^(NSDictionary * _Nonnull userInfo, NSDictionary * _Nonnull extendInfo) {
+        
+    } pageProcessSuccess:^BOOL{
+        //说明登录流程已走完，执行下面的逻辑
+        HHJQRCodeViewController *qrcodeVC = [[HHJQRCodeViewController alloc] init];
+        [HHJContext.getCurrentVC.navigationController pushViewController:qrcodeVC animated:YES];
+        return NO;
     }];
 }
 
