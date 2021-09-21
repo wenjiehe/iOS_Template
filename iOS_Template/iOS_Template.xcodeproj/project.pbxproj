@@ -120,6 +120,9 @@
 		3D026CFC26F9B5CF00F671E5 /* UINavigationController+memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CFB26F9B5CF00F671E5 /* UINavigationController+memory.m */; };
 		3D026CFF26F9B5E800F671E5 /* UIViewController+memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */; };
 		3D026D0326F9B68A00F671E5 /* HHJAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0226F9B68A00F671E5 /* HHJAppManager.m */; };
+		3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */; };
+		3D026D0926F9C03F00F671E5 /* HHJRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0826F9C03F00F671E5 /* HHJRegisterViewController.m */; };
+		3D026D0F26F9C0D400F671E5 /* HHJ_RegisterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -366,6 +369,13 @@
 		3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+memory.m"; sourceTree = "<group>"; };
 		3D026D0126F9B68A00F671E5 /* HHJAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJAppManager.h; sourceTree = "<group>"; };
 		3D026D0226F9B68A00F671E5 /* HHJAppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJAppManager.m; sourceTree = "<group>"; };
+		3D026D0426F9C01500F671E5 /* HHJTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTabBarViewController.h; sourceTree = "<group>"; };
+		3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTabBarViewController.m; sourceTree = "<group>"; };
+		3D026D0726F9C03F00F671E5 /* HHJRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJRegisterViewController.h; sourceTree = "<group>"; };
+		3D026D0826F9C03F00F671E5 /* HHJRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJRegisterViewController.m; sourceTree = "<group>"; };
+		3D026D0C26F9C0B600F671E5 /* HHJ_RegisterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_RegisterProtocol.h; sourceTree = "<group>"; };
+		3D026D0D26F9C0D400F671E5 /* HHJ_RegisterService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_RegisterService.h; sourceTree = "<group>"; };
+		3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_RegisterService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -601,6 +611,8 @@
 		3D026B7026F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3D026D0426F9C01500F671E5 /* HHJTabBarViewController.h */,
+				3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -683,6 +695,7 @@
 		3D026B7A26F79D3E00F671E5 /* WJ_Register */ = {
 			isa = PBXGroup;
 			children = (
+				3D026D0A26F9C06200F671E5 /* Service */,
 				3D026B7B26F79D3E00F671E5 /* Resources */,
 				3D026B7C26F79D3E00F671E5 /* ViewController */,
 			);
@@ -699,6 +712,8 @@
 		3D026B7C26F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3D026D0726F9C03F00F671E5 /* HHJRegisterViewController.h */,
+				3D026D0826F9C03F00F671E5 /* HHJRegisterViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1132,6 +1147,7 @@
 			children = (
 				3D026CE626F9118B00F671E5 /* HHJ_LoginProtocol.h */,
 				3D026CF526F9AC6600F671E5 /* HHJ_CameraProtocol.h */,
+				3D026D0C26F9C0B600F671E5 /* HHJ_RegisterProtocol.h */,
 			);
 			path = ServiceProtocols;
 			sourceTree = "<group>";
@@ -1170,6 +1186,15 @@
 				3D026D0226F9B68A00F671E5 /* HHJAppManager.m */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		3D026D0A26F9C06200F671E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D026D0D26F9C0D400F671E5 /* HHJ_RegisterService.h */,
+				3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1245,6 +1270,7 @@
 				3D026CA126F7A61500F671E5 /* SDWebImagePrefetcher.m in Sources */,
 				3D026B8F26F79D3F00F671E5 /* MASViewConstraint.m in Sources */,
 				3D026C8526F7A61500F671E5 /* SDImageHEICCoder.m in Sources */,
+				3D026D0926F9C03F00F671E5 /* HHJRegisterViewController.m in Sources */,
 				3D026B9626F79D3F00F671E5 /* AFHTTPSessionManager.m in Sources */,
 				3D026C8B26F7A61500F671E5 /* SDWebImageManager.m in Sources */,
 				3D026B9A26F79D3F00F671E5 /* AFSecurityPolicy.m in Sources */,
@@ -1254,6 +1280,7 @@
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				3D026C9226F7A61500F671E5 /* SDAnimatedImagePlayer.m in Sources */,
 				3D026C9526F7A61500F671E5 /* SDImageLoader.m in Sources */,
+				3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */,
 				3D026C8626F7A61500F671E5 /* NSImage+Compatibility.m in Sources */,
 				3D026C9C26F7A61500F671E5 /* SDMemoryCache.m in Sources */,
 				3D026CB826F7A61500F671E5 /* SDWebImageDefine.m in Sources */,
@@ -1273,6 +1300,7 @@
 				3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */,
 				3D026CED26F9128600F671E5 /* HHJLoginViewController.m in Sources */,
 				3D026CAE26F7A61500F671E5 /* SDImageCachesManager.m in Sources */,
+				3D026D0F26F9C0D400F671E5 /* HHJ_RegisterService.m in Sources */,
 				3D026C9126F7A61500F671E5 /* SDImageAWebPCoder.m in Sources */,
 				3D026CC926F7A61600F671E5 /* SDAssociatedObject.m in Sources */,
 				3D026CAB26F7A61500F671E5 /* SDImageFrame.m in Sources */,
