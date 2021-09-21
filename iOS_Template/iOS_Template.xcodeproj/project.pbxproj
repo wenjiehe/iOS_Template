@@ -116,6 +116,7 @@
 		3D026CED26F9128600F671E5 /* HHJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CEC26F9128600F671E5 /* HHJLoginViewController.m */; };
 		3D026CF126F913B000F671E5 /* HHJContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF026F913B000F671E5 /* HHJContext.m */; };
 		3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */; };
+		3D026CF926F9AD3000F671E5 /* HHJ_CameraService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF826F9AD3000F671E5 /* HHJ_CameraService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -353,6 +354,9 @@
 		3D026CF026F913B000F671E5 /* HHJContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJContext.m; sourceTree = "<group>"; };
 		3D026CF226F9A6FE00F671E5 /* HHJQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJQRCodeViewController.h; sourceTree = "<group>"; };
 		3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJQRCodeViewController.m; sourceTree = "<group>"; };
+		3D026CF526F9AC6600F671E5 /* HHJ_CameraProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_CameraProtocol.h; sourceTree = "<group>"; };
+		3D026CF726F9AD2F00F671E5 /* HHJ_CameraService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_CameraService.h; sourceTree = "<group>"; };
+		3D026CF826F9AD3000F671E5 /* HHJ_CameraService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_CameraService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -595,6 +599,7 @@
 		3D026B7126F79D3E00F671E5 /* WJ_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				3D026CF626F9ACD600F671E5 /* Service */,
 				3D026B7226F79D3E00F671E5 /* Resources */,
 				3D026B7326F79D3E00F671E5 /* ViewController */,
 			);
@@ -1112,6 +1117,7 @@
 			isa = PBXGroup;
 			children = (
 				3D026CE626F9118B00F671E5 /* HHJ_LoginProtocol.h */,
+				3D026CF526F9AC6600F671E5 /* HHJ_CameraProtocol.h */,
 			);
 			path = ServiceProtocols;
 			sourceTree = "<group>";
@@ -1132,6 +1138,15 @@
 				3D026CF026F913B000F671E5 /* HHJContext.m */,
 			);
 			path = Context;
+			sourceTree = "<group>";
+		};
+		3D026CF626F9ACD600F671E5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D026CF726F9AD2F00F671E5 /* HHJ_CameraService.h */,
+				3D026CF826F9AD3000F671E5 /* HHJ_CameraService.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1247,6 +1262,7 @@
 				3D026C8726F7A61500F671E5 /* SDAnimatedImageView+WebCache.m in Sources */,
 				3D026CBC26F7A61500F671E5 /* UIImage+Metadata.m in Sources */,
 				3D026CD826F85C4900F671E5 /* HHJUtilService.m in Sources */,
+				3D026CF926F9AD3000F671E5 /* HHJ_CameraService.m in Sources */,
 				3D026C9A26F7A61500F671E5 /* SDImageCodersManager.m in Sources */,
 				3D026BF226F7A48C00F671E5 /* HHJNetworkDetect.m in Sources */,
 				3D026C9B26F7A61500F671E5 /* UIImage+MultiFormat.m in Sources */,
