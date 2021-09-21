@@ -11,9 +11,9 @@
 
 @implementation HHJ_RegisterService
 
-- (void)startRegister{
-    HHJRegisterViewController *registerVC = [[HHJRegisterViewController alloc] init];
-    [HHJContext.getCurrentVC.navigationController pushViewController:registerVC animated:YES];
-}
+//- (void)startRegister{
+//    HHJRegisterViewController *registerVC = [[HHJRegisterViewController alloc] init];
+//    [HHJContext.getCurrentVC.navigationController pushViewController:registerVC animated:YES];
+//}
 
 @end

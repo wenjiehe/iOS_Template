@@ -123,6 +123,7 @@
 		3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */; };
 		3D026D0926F9C03F00F671E5 /* HHJRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0826F9C03F00F671E5 /* HHJRegisterViewController.m */; };
 		3D026D0F26F9C0D400F671E5 /* HHJ_RegisterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */; };
+		3D026D1426FA12E300F671E5 /* NSObject+HHJMethodIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -376,6 +377,8 @@
 		3D026D0C26F9C0B600F671E5 /* HHJ_RegisterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_RegisterProtocol.h; sourceTree = "<group>"; };
 		3D026D0D26F9C0D400F671E5 /* HHJ_RegisterService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_RegisterService.h; sourceTree = "<group>"; };
 		3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_RegisterService.m; sourceTree = "<group>"; };
+		3D026D1226FA12E300F671E5 /* NSObject+HHJMethodIntercept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HHJMethodIntercept.h"; sourceTree = "<group>"; };
+		3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HHJMethodIntercept.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -877,6 +880,8 @@
 				3D026CFB26F9B5CF00F671E5 /* UINavigationController+memory.m */,
 				3D026CFD26F9B5E800F671E5 /* UIViewController+memory.h */,
 				3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */,
+				3D026D1226FA12E300F671E5 /* NSObject+HHJMethodIntercept.h */,
+				3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1336,6 +1341,7 @@
 				3D026BF526F7A4B000F671E5 /* NSObject+HHJScreenDetect.m in Sources */,
 				3D026CBD26F7A61500F671E5 /* UIButton+WebCache.m in Sources */,
 				3D026CA726F7A61500F671E5 /* UIImage+ExtendedCacheData.m in Sources */,
+				3D026D1426FA12E300F671E5 /* NSObject+HHJMethodIntercept.m in Sources */,
 				3D026CA326F7A61500F671E5 /* NSButton+WebCache.m in Sources */,
 				3D026CBF26F7A61500F671E5 /* UIColor+SDHexString.m in Sources */,
 				3D026CDE26F8DBF700F671E5 /* HHJLocationManager.m in Sources */,

@@ -6,6 +6,7 @@
 //
 
 #import "HHJContext.h"
+#import <objc/runtime.h>
 
 NSString *const ServiceString = @"Service";
 NSString *const ProtocolString = @"Protocol";
@@ -57,6 +58,29 @@ NSString *const ProtocolString = @"Protocol";
 + (id)findServerName:(NSString *)name{
     NSString *clsString = [name stringByReplacingOccurrencesOfString:ProtocolString withString:ServiceString];
     Class cls = NSClassFromString(clsString);
+    Protocol *protocol = NSProtocolFromString(name);
+    BOOL isProtocol = class_conformsToProtocol(cls, protocol);
+    //判断服务类是否实现了对应协议
+    if (!isProtocol) { //没有实现
+        NSLog(@"没有实现%@协议", name);
+    }
+    unsigned int count = 0;
+    //第一个YES：是否是RequiredMethod, 第二个YES：是否是实例方法
+    struct objc_method_description *methodList = protocol_copyMethodDescriptionList(protocol, YES, YES, &count);
+    NSMutableArray *selectorMtbAry = [NSMutableArray new];
+    for (unsigned int i = 0; i < count; i++) {
+        struct objc_method_description method = methodList[i];
+        [selectorMtbAry addObject:NSStringFromSelector(method.name)];
+    }
+    free(methodList);
+    BOOL isHave = NO;
+    for (NSString *selectorName in selectorMtbAry) {
+        if (![cls respondsToSelector:NSSelectorFromString(selectorName)]) {
+            isHave = YES;
+            NSLog(@"没有实现%@协议的必须方法%@", name, selectorName);
+        }
+    }
+
     return [[cls alloc] init];
 }
 

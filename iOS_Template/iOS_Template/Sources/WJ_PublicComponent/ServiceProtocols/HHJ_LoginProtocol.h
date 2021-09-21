@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param pageProcessSuccess YES-把登录界面从栈中移除，NO-保留登录界面
 - (void)startLogin:(NSDictionary *)extendInfo animated:(BOOL)animated loginSuccess:(void(^)(NSDictionary *userInfo, NSDictionary *extendInfo))loginSuccess pageProcessSuccess:(BOOL(^)(void))pageProcessSuccess;
 
+- (void)cleanLoginInfo;
+
 @end
 
 NS_ASSUME_NONNULL_END
