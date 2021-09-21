@@ -27,6 +27,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     HHJLog(@"viewControllers = %@", HHJContext.getCurrentVC.navigationController.viewControllers);
+    
 }
 
 /*

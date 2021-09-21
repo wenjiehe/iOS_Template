@@ -117,13 +117,13 @@
 		3D026CF126F913B000F671E5 /* HHJContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF026F913B000F671E5 /* HHJContext.m */; };
 		3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF326F9A6FE00F671E5 /* HHJQRCodeViewController.m */; };
 		3D026CF926F9AD3000F671E5 /* HHJ_CameraService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CF826F9AD3000F671E5 /* HHJ_CameraService.m */; };
-		3D026CFC26F9B5CF00F671E5 /* UINavigationController+memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CFB26F9B5CF00F671E5 /* UINavigationController+memory.m */; };
-		3D026CFF26F9B5E800F671E5 /* UIViewController+memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */; };
 		3D026D0326F9B68A00F671E5 /* HHJAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0226F9B68A00F671E5 /* HHJAppManager.m */; };
 		3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */; };
 		3D026D0926F9C03F00F671E5 /* HHJRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0826F9C03F00F671E5 /* HHJRegisterViewController.m */; };
 		3D026D0F26F9C0D400F671E5 /* HHJ_RegisterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */; };
 		3D026D1426FA12E300F671E5 /* NSObject+HHJMethodIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */; };
+		3D026D1726FA156000F671E5 /* UIViewController+HHJMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */; };
+		3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -364,10 +364,6 @@
 		3D026CF526F9AC6600F671E5 /* HHJ_CameraProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_CameraProtocol.h; sourceTree = "<group>"; };
 		3D026CF726F9AD2F00F671E5 /* HHJ_CameraService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_CameraService.h; sourceTree = "<group>"; };
 		3D026CF826F9AD3000F671E5 /* HHJ_CameraService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_CameraService.m; sourceTree = "<group>"; };
-		3D026CFA26F9B5CF00F671E5 /* UINavigationController+memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+memory.h"; sourceTree = "<group>"; };
-		3D026CFB26F9B5CF00F671E5 /* UINavigationController+memory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+memory.m"; sourceTree = "<group>"; };
-		3D026CFD26F9B5E800F671E5 /* UIViewController+memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+memory.h"; sourceTree = "<group>"; };
-		3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+memory.m"; sourceTree = "<group>"; };
 		3D026D0126F9B68A00F671E5 /* HHJAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJAppManager.h; sourceTree = "<group>"; };
 		3D026D0226F9B68A00F671E5 /* HHJAppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJAppManager.m; sourceTree = "<group>"; };
 		3D026D0426F9C01500F671E5 /* HHJTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTabBarViewController.h; sourceTree = "<group>"; };
@@ -379,6 +375,10 @@
 		3D026D0E26F9C0D400F671E5 /* HHJ_RegisterService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJ_RegisterService.m; sourceTree = "<group>"; };
 		3D026D1226FA12E300F671E5 /* NSObject+HHJMethodIntercept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HHJMethodIntercept.h"; sourceTree = "<group>"; };
 		3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HHJMethodIntercept.m"; sourceTree = "<group>"; };
+		3D026D1526FA156000F671E5 /* UIViewController+HHJMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HHJMemory.h"; sourceTree = "<group>"; };
+		3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HHJMemory.m"; sourceTree = "<group>"; };
+		3D026D1826FA164500F671E5 /* UINavigationController+HHJMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HHJMemory.h"; sourceTree = "<group>"; };
+		3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HHJMemory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -876,12 +876,12 @@
 		3D026BDD26F7A17A00F671E5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				3D026CFA26F9B5CF00F671E5 /* UINavigationController+memory.h */,
-				3D026CFB26F9B5CF00F671E5 /* UINavigationController+memory.m */,
-				3D026CFD26F9B5E800F671E5 /* UIViewController+memory.h */,
-				3D026CFE26F9B5E800F671E5 /* UIViewController+memory.m */,
 				3D026D1226FA12E300F671E5 /* NSObject+HHJMethodIntercept.h */,
 				3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */,
+				3D026D1526FA156000F671E5 /* UIViewController+HHJMemory.h */,
+				3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */,
+				3D026D1826FA164500F671E5 /* UINavigationController+HHJMemory.h */,
+				3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1283,6 +1283,7 @@
 				3D026CBE26F7A61500F671E5 /* SDWebImageDownloaderRequestModifier.m in Sources */,
 				3D026CC026F7A61500F671E5 /* SDImageCachesManagerOperation.m in Sources */,
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
+				3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */,
 				3D026C9226F7A61500F671E5 /* SDAnimatedImagePlayer.m in Sources */,
 				3D026C9526F7A61500F671E5 /* SDImageLoader.m in Sources */,
 				3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */,
@@ -1320,6 +1321,7 @@
 				3D026CD826F85C4900F671E5 /* HHJUtilService.m in Sources */,
 				3D026CF926F9AD3000F671E5 /* HHJ_CameraService.m in Sources */,
 				3D026C9A26F7A61500F671E5 /* SDImageCodersManager.m in Sources */,
+				3D026D1726FA156000F671E5 /* UIViewController+HHJMemory.m in Sources */,
 				3D026BF226F7A48C00F671E5 /* HHJNetworkDetect.m in Sources */,
 				3D026C9B26F7A61500F671E5 /* UIImage+MultiFormat.m in Sources */,
 				3D026CA826F7A61500F671E5 /* SDWebImageDownloaderConfig.m in Sources */,
@@ -1355,7 +1357,6 @@
 				3D026BEF26F7A47600F671E5 /* HHJDeviceDetect.m in Sources */,
 				3D026C9326F7A61500F671E5 /* UIImage+Transform.m in Sources */,
 				3D026B8D26F79D3F00F671E5 /* View+MASAdditions.m in Sources */,
-				3D026CFC26F9B5CF00F671E5 /* UINavigationController+memory.m in Sources */,
 				3D026CB926F7A61500F671E5 /* SDWebImageOptionsProcessor.m in Sources */,
 				3D026B8A26F79D3F00F671E5 /* MASConstraintMaker.m in Sources */,
 				3D026C8926F7A61500F671E5 /* SDWebImageOperation.m in Sources */,
@@ -1369,7 +1370,6 @@
 				3D026CA926F7A61500F671E5 /* SDImageCache.m in Sources */,
 				3D026CC826F7A61600F671E5 /* SDAsyncBlockOperation.m in Sources */,
 				3D026CBB26F7A61500F671E5 /* UIView+WebCache.m in Sources */,
-				3D026CFF26F9B5E800F671E5 /* UIViewController+memory.m in Sources */,
 				3D026B9326F79D3F00F671E5 /* YYClassInfo.m in Sources */,
 				3D026B8726F79D3F00F671E5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				3D026CB626F7A61500F671E5 /* SDImageCacheConfig.m in Sources */,

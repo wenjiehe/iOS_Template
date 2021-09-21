@@ -1,15 +1,15 @@
 //
-//  UINavigationController+memory.m
+//  UINavigationController+HHJMemory.m
 //  iOS_Template
 //
 //  Created by 贺文杰 on 2021/9/21.
 //
 
-#import "UINavigationController+memory.h"
+#import "UINavigationController+HHJMemory.h"
 #import <objc/runtime.h>
 #import "HHJAppManager.h"
 
-@implementation UINavigationController (memory)
+@implementation UINavigationController (HHJMemory)
 
 + (void)load
 {

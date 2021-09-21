@@ -35,21 +35,17 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     HHJLog(@"viewControllers = %@", HHJContext.getCurrentVC.navigationController.viewControllers);
+    id<HHJ_LoginProtocol> loginService = [HHJContext findServerName:@"HHJ_LoginProtocol"];
+    [loginService startLogin:@{} animated:YES loginSuccess:^(NSDictionary * _Nonnull userInfo, NSDictionary * _Nonnull extendInfo) {
 
-    id<HHJ_RegisterProtocol> registerService = [HHJContext findServerName:@"HHJ_RegisterProtocol"];
-    [registerService startRegister];
-    
-//    id<HHJ_LoginProtocol> loginService = [HHJContext findServerName:@"HHJ_LoginProtocol"];
-//    [loginService startLogin:@{} animated:YES loginSuccess:^(NSDictionary * _Nonnull userInfo, NSDictionary * _Nonnull extendInfo) {
-//
-//    } pageProcessSuccess:^BOOL{
-//        //说明登录流程已走完，执行下面的逻辑
-//        id<HHJ_CameraProtocol> cameraService = [HHJContext findServerName:@"HHJ_CameraProtocol"];
-//        [cameraService startQRCodeWithExtendInfo:@{} animated:YES completionHandle:^(NSString * _Nonnull qrcodeString, NSString * _Nonnull source, NSDictionary * _Nonnull extendInfo) {
-//
-//        }];
-//        return NO;
-//    }];
+    } pageProcessSuccess:^BOOL{
+        //说明登录流程已走完，执行下面的逻辑
+        id<HHJ_CameraProtocol> cameraService = [HHJContext findServerName:@"HHJ_CameraProtocol"];
+        [cameraService startQRCodeWithExtendInfo:@{} animated:YES completionHandle:^(NSString * _Nonnull qrcodeString, NSString * _Nonnull source, NSDictionary * _Nonnull extendInfo) {
+
+        }];
+        return NO;
+    }];
 }
 
 @end

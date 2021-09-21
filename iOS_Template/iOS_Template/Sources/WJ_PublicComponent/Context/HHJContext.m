@@ -73,15 +73,16 @@ NSString *const ProtocolString = @"Protocol";
         [selectorMtbAry addObject:NSStringFromSelector(method.name)];
     }
     free(methodList);
-    BOOL isHave = NO;
+    
+    id class = [[cls alloc] init];
     for (NSString *selectorName in selectorMtbAry) {
-        if (![cls respondsToSelector:NSSelectorFromString(selectorName)]) {
-            isHave = YES;
+        if (![class respondsToSelector:NSSelectorFromString(selectorName)]) {
             NSLog(@"没有实现%@协议的必须方法%@", name, selectorName);
         }
     }
 
-    return [[cls alloc] init];
+
+    return class;
 }
 
 

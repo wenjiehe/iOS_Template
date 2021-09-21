@@ -1,5 +1,5 @@
 //
-//  UINavigationController+memory.h
+//  UIViewController+HHJMemory.h
 //  iOS_Template
 //
 //  Created by 贺文杰 on 2021/9/21.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UINavigationController (memory)
+@interface UIViewController (HHJMemory)
 
 @end
 

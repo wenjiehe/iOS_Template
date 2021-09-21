@@ -25,5 +25,10 @@
     }
 }
 
+- (void)cleanLoginInfo {
+    
+}
+
+
 
 @end

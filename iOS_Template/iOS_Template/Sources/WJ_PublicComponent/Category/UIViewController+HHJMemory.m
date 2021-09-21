@@ -1,15 +1,15 @@
 //
-//  UIViewController+memory.m
+//  UIViewController+HHJMemory.m
 //  iOS_Template
 //
 //  Created by 贺文杰 on 2021/9/21.
 //
 
-#import "UIViewController+memory.h"
+#import "UIViewController+HHJMemory.h"
 #import <objc/runtime.h>
 #import "HHJAppManager.h"
 
-@implementation UIViewController (memory)
+@implementation UIViewController (HHJMemory)
 
 + (void)load
 {
@@ -47,5 +47,6 @@
     [[HHJAppManager sharedInstance].vcMtbAry addObject:NSStringFromClass(viewControllerToPresent.class)];
     [self customPresentViewController:viewControllerToPresent animated:flag completion:completion];
 }
+
 
 @end
