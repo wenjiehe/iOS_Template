@@ -81,7 +81,6 @@ NSString *const ProtocolString = @"Protocol";
         }
     }
 
-
     return class;
 }
 

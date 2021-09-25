@@ -71,8 +71,8 @@
     if ([FixedCoordinatesUtil isLocationInChina:coordinate]) {
         coordinate =[FixedCoordinatesUtil transformFromWGSToGCJ:coordinate];
     }
-    locationInfo[@"latitude"] = @(coordinate.latitude); // 纬度
-    locationInfo[@"longitude"] = @(coordinate.longitude); // 经度
+    locationInfo[@"latitude"] = [NSString stringWithFormat:@"%.6f", coordinate.latitude]; // 纬度
+    locationInfo[@"longitude"] = [NSString stringWithFormat:@"%.6f", coordinate.longitude]; // 经度
     // 强制 成 简体中文
     NSMutableArray *userDefaultLanguages = [[NSUserDefaults standardUserDefaults]
                                             objectForKey:@"AppleLanguages"];

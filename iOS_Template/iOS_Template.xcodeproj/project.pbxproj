@@ -124,6 +124,8 @@
 		3D026D1426FA12E300F671E5 /* NSObject+HHJMethodIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1326FA12E300F671E5 /* NSObject+HHJMethodIntercept.m */; };
 		3D026D1726FA156000F671E5 /* UIViewController+HHJMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */; };
 		3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */; };
+		3D026D1D26FB7FF400F671E5 /* HHJUserAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1C26FB7FF300F671E5 /* HHJUserAuthorization.m */; };
+		3D7E3BA926FF4696000BC34B /* HHJVideoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BA826FF4696000BC34B /* HHJVideoUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -379,6 +381,10 @@
 		3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HHJMemory.m"; sourceTree = "<group>"; };
 		3D026D1826FA164500F671E5 /* UINavigationController+HHJMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HHJMemory.h"; sourceTree = "<group>"; };
 		3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HHJMemory.m"; sourceTree = "<group>"; };
+		3D026D1B26FB7FF300F671E5 /* HHJUserAuthorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJUserAuthorization.h; sourceTree = "<group>"; };
+		3D026D1C26FB7FF300F671E5 /* HHJUserAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJUserAuthorization.m; sourceTree = "<group>"; };
+		3D7E3BA726FF4696000BC34B /* HHJVideoUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJVideoUtils.h; sourceTree = "<group>"; };
+		3D7E3BA826FF4696000BC34B /* HHJVideoUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJVideoUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -849,7 +855,6 @@
 				3D026BDE26F7A17A00F671E5 /* ImagePicker */,
 				3D026BDF26F7A17A00F671E5 /* Location */,
 				3D026BE026F7A17A00F671E5 /* Contacts */,
-				3D026BE126F7A17A00F671E5 /* Device */,
 				3D026BE226F7A17A00F671E5 /* UserAuthorization */,
 				3D026BE326F7A17A00F671E5 /* Encrypt */,
 				3D026BE426F7A17A00F671E5 /* Share */,
@@ -860,6 +865,8 @@
 		3D026BDB26F7A17A00F671E5 /* MediaUtils */ = {
 			isa = PBXGroup;
 			children = (
+				3D7E3BA726FF4696000BC34B /* HHJVideoUtils.h */,
+				3D7E3BA826FF4696000BC34B /* HHJVideoUtils.m */,
 			);
 			path = MediaUtils;
 			sourceTree = "<group>";
@@ -909,16 +916,11 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
-		3D026BE126F7A17A00F671E5 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Device;
-			sourceTree = "<group>";
-		};
 		3D026BE226F7A17A00F671E5 /* UserAuthorization */ = {
 			isa = PBXGroup;
 			children = (
+				3D026D1B26FB7FF300F671E5 /* HHJUserAuthorization.h */,
+				3D026D1C26FB7FF300F671E5 /* HHJUserAuthorization.m */,
 			);
 			path = UserAuthorization;
 			sourceTree = "<group>";
@@ -1284,6 +1286,7 @@
 				3D026CC026F7A61500F671E5 /* SDImageCachesManagerOperation.m in Sources */,
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */,
+				3D026D1D26FB7FF400F671E5 /* HHJUserAuthorization.m in Sources */,
 				3D026C9226F7A61500F671E5 /* SDAnimatedImagePlayer.m in Sources */,
 				3D026C9526F7A61500F671E5 /* SDImageLoader.m in Sources */,
 				3D026D0626F9C01500F671E5 /* HHJTabBarViewController.m in Sources */,
@@ -1365,6 +1368,7 @@
 				3D026B8E26F79D3F00F671E5 /* MASConstraint.m in Sources */,
 				3D026CF126F913B000F671E5 /* HHJContext.m in Sources */,
 				3D026C9926F7A61500F671E5 /* UIImage+GIF.m in Sources */,
+				3D7E3BA926FF4696000BC34B /* HHJVideoUtils.m in Sources */,
 				3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */,
 				3D026D0326F9B68A00F671E5 /* HHJAppManager.m in Sources */,
 				3D026CA926F7A61500F671E5 /* SDImageCache.m in Sources */,
