@@ -126,6 +126,14 @@
 		3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */; };
 		3D026D1D26FB7FF400F671E5 /* HHJUserAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026D1C26FB7FF300F671E5 /* HHJUserAuthorization.m */; };
 		3D7E3BA926FF4696000BC34B /* HHJVideoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BA826FF4696000BC34B /* HHJVideoUtils.m */; };
+		3D7E3BC12704ADD4000BC34B /* HHJDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BAB2704ADD3000BC34B /* HHJDocumentViewController.m */; };
+		3D7E3BC32704ADD4000BC34B /* HHJHousingFundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BB12704ADD3000BC34B /* HHJHousingFundView.m */; };
+		3D7E3BC42704ADD4000BC34B /* CalculatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BB22704ADD3000BC34B /* CalculatorUtil.m */; };
+		3D7E3BC62704ADD4000BC34B /* HHJPersonalLoansView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BB52704ADD3000BC34B /* HHJPersonalLoansView.m */; };
+		3D7E3BC82704ADD4000BC34B /* HHJWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BBC2704ADD3000BC34B /* HHJWebView.m */; };
+		3D7E3BC92704ADD4000BC34B /* HHJCustomCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BC02704ADD4000BC34B /* HHJCustomCalendar.m */; };
+		3D7E3BCC2704B9B5000BC34B /* NSString+HHJBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BCB2704B9B5000BC34B /* NSString+HHJBase.m */; };
+		3D7E3BCF2709E73A000BC34B /* NSObject+HHJHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BCE2709E73A000BC34B /* NSObject+HHJHttpRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -385,6 +393,23 @@
 		3D026D1C26FB7FF300F671E5 /* HHJUserAuthorization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJUserAuthorization.m; sourceTree = "<group>"; };
 		3D7E3BA726FF4696000BC34B /* HHJVideoUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJVideoUtils.h; sourceTree = "<group>"; };
 		3D7E3BA826FF4696000BC34B /* HHJVideoUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJVideoUtils.m; sourceTree = "<group>"; };
+		3D7E3BAB2704ADD3000BC34B /* HHJDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJDocumentViewController.m; sourceTree = "<group>"; };
+		3D7E3BAC2704ADD3000BC34B /* HHJDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJDocumentViewController.h; sourceTree = "<group>"; };
+		3D7E3BAF2704ADD3000BC34B /* HHJPersonalLoansView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJPersonalLoansView.h; sourceTree = "<group>"; };
+		3D7E3BB02704ADD3000BC34B /* CalculatorGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorGlobal.h; sourceTree = "<group>"; };
+		3D7E3BB12704ADD3000BC34B /* HHJHousingFundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJHousingFundView.m; sourceTree = "<group>"; };
+		3D7E3BB22704ADD3000BC34B /* CalculatorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorUtil.m; sourceTree = "<group>"; };
+		3D7E3BB52704ADD3000BC34B /* HHJPersonalLoansView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJPersonalLoansView.m; sourceTree = "<group>"; };
+		3D7E3BB92704ADD3000BC34B /* CalculatorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorUtil.h; sourceTree = "<group>"; };
+		3D7E3BBA2704ADD3000BC34B /* HHJHousingFundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJHousingFundView.h; sourceTree = "<group>"; };
+		3D7E3BBC2704ADD3000BC34B /* HHJWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJWebView.m; sourceTree = "<group>"; };
+		3D7E3BBD2704ADD3000BC34B /* HHJWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJWebView.h; sourceTree = "<group>"; };
+		3D7E3BBF2704ADD4000BC34B /* HHJCustomCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJCustomCalendar.h; sourceTree = "<group>"; };
+		3D7E3BC02704ADD4000BC34B /* HHJCustomCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJCustomCalendar.m; sourceTree = "<group>"; };
+		3D7E3BCA2704B9B5000BC34B /* NSString+HHJBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HHJBase.h"; sourceTree = "<group>"; };
+		3D7E3BCB2704B9B5000BC34B /* NSString+HHJBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HHJBase.m"; sourceTree = "<group>"; };
+		3D7E3BCD2709E73A000BC34B /* NSObject+HHJHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HHJHttpRequest.h"; sourceTree = "<group>"; };
+		3D7E3BCE2709E73A000BC34B /* NSObject+HHJHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HHJHttpRequest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -554,6 +579,8 @@
 		3D026B6926F79D3E00F671E5 /* WJ_Network */ = {
 			isa = PBXGroup;
 			children = (
+				3D7E3BCD2709E73A000BC34B /* NSObject+HHJHttpRequest.h */,
+				3D7E3BCE2709E73A000BC34B /* NSObject+HHJHttpRequest.m */,
 			);
 			path = WJ_Network;
 			sourceTree = "<group>";
@@ -730,6 +757,10 @@
 		3D026B7D26F79D3E00F671E5 /* WJ_PublicUI */ = {
 			isa = PBXGroup;
 			children = (
+				3D7E3BAD2704ADD3000BC34B /* WJCalculator */,
+				3D7E3BBE2704ADD4000BC34B /* WJCalendar */,
+				3D7E3BAA2704ADD3000BC34B /* WJDocument */,
+				3D7E3BBB2704ADD3000BC34B /* WJWebView */,
 				3D026BD526F7A10F00F671E5 /* WJAlert */,
 				3D026BD626F7A11000F671E5 /* WJPicker */,
 				3D026BD726F7A11000F671E5 /* WJShareView */,
@@ -889,6 +920,8 @@
 				3D026D1626FA156000F671E5 /* UIViewController+HHJMemory.m */,
 				3D026D1826FA164500F671E5 /* UINavigationController+HHJMemory.h */,
 				3D026D1926FA164500F671E5 /* UINavigationController+HHJMemory.m */,
+				3D7E3BCA2704B9B5000BC34B /* NSString+HHJBase.h */,
+				3D7E3BCB2704B9B5000BC34B /* NSString+HHJBase.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1204,6 +1237,47 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		3D7E3BAA2704ADD3000BC34B /* WJDocument */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E3BAC2704ADD3000BC34B /* HHJDocumentViewController.h */,
+				3D7E3BAB2704ADD3000BC34B /* HHJDocumentViewController.m */,
+			);
+			path = WJDocument;
+			sourceTree = "<group>";
+		};
+		3D7E3BAD2704ADD3000BC34B /* WJCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E3BB02704ADD3000BC34B /* CalculatorGlobal.h */,
+				3D7E3BB92704ADD3000BC34B /* CalculatorUtil.h */,
+				3D7E3BB22704ADD3000BC34B /* CalculatorUtil.m */,
+				3D7E3BBA2704ADD3000BC34B /* HHJHousingFundView.h */,
+				3D7E3BB12704ADD3000BC34B /* HHJHousingFundView.m */,
+				3D7E3BAF2704ADD3000BC34B /* HHJPersonalLoansView.h */,
+				3D7E3BB52704ADD3000BC34B /* HHJPersonalLoansView.m */,
+			);
+			path = WJCalculator;
+			sourceTree = "<group>";
+		};
+		3D7E3BBB2704ADD3000BC34B /* WJWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E3BBD2704ADD3000BC34B /* HHJWebView.h */,
+				3D7E3BBC2704ADD3000BC34B /* HHJWebView.m */,
+			);
+			path = WJWebView;
+			sourceTree = "<group>";
+		};
+		3D7E3BBE2704ADD4000BC34B /* WJCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E3BBF2704ADD4000BC34B /* HHJCustomCalendar.h */,
+				3D7E3BC02704ADD4000BC34B /* HHJCustomCalendar.m */,
+			);
+			path = WJCalendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1283,6 +1357,7 @@
 				3D026B9A26F79D3F00F671E5 /* AFSecurityPolicy.m in Sources */,
 				3D026CAC26F7A61500F671E5 /* SDWebImageDownloaderOperation.m in Sources */,
 				3D026CBE26F7A61500F671E5 /* SDWebImageDownloaderRequestModifier.m in Sources */,
+				3D7E3BCC2704B9B5000BC34B /* NSString+HHJBase.m in Sources */,
 				3D026CC026F7A61500F671E5 /* SDImageCachesManagerOperation.m in Sources */,
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */,
@@ -1304,9 +1379,11 @@
 				3D026CEA26F9123D00F671E5 /* HHJ_LoginService.m in Sources */,
 				3D026CC426F7A61600F671E5 /* SDInternalMacros.m in Sources */,
 				3D026B9726F79D3F00F671E5 /* AFURLSessionManager.m in Sources */,
+				3D7E3BC92704ADD4000BC34B /* HHJCustomCalendar.m in Sources */,
 				3D026C9826F7A61500F671E5 /* SDGraphicsImageRenderer.m in Sources */,
 				3D026CAA26F7A61500F671E5 /* SDImageGIFCoder.m in Sources */,
 				3D026CF426F9A6FE00F671E5 /* HHJQRCodeViewController.m in Sources */,
+				3D7E3BC42704ADD4000BC34B /* CalculatorUtil.m in Sources */,
 				3D026CED26F9128600F671E5 /* HHJLoginViewController.m in Sources */,
 				3D026CAE26F7A61500F671E5 /* SDImageCachesManager.m in Sources */,
 				3D026D0F26F9C0D400F671E5 /* HHJ_RegisterService.m in Sources */,
@@ -1316,6 +1393,7 @@
 				3D026CCC26F846B600F671E5 /* HHJBaseViewController.m in Sources */,
 				3D026C9D26F7A61500F671E5 /* SDWebImageCompat.m in Sources */,
 				3D026C9726F7A61500F671E5 /* SDWebImageIndicator.m in Sources */,
+				3D7E3BCF2709E73A000BC34B /* NSObject+HHJHttpRequest.m in Sources */,
 				3D026C8F26F7A61500F671E5 /* SDAnimatedImageView.m in Sources */,
 				3D026CC626F7A61600F671E5 /* NSBezierPath+SDRoundedCorners.m in Sources */,
 				3D026B8C26F79D3F00F671E5 /* NSArray+MASAdditions.m in Sources */,
@@ -1325,6 +1403,7 @@
 				3D026CF926F9AD3000F671E5 /* HHJ_CameraService.m in Sources */,
 				3D026C9A26F7A61500F671E5 /* SDImageCodersManager.m in Sources */,
 				3D026D1726FA156000F671E5 /* UIViewController+HHJMemory.m in Sources */,
+				3D7E3BC12704ADD4000BC34B /* HHJDocumentViewController.m in Sources */,
 				3D026BF226F7A48C00F671E5 /* HHJNetworkDetect.m in Sources */,
 				3D026C9B26F7A61500F671E5 /* UIImage+MultiFormat.m in Sources */,
 				3D026CA826F7A61500F671E5 /* SDWebImageDownloaderConfig.m in Sources */,
@@ -1338,6 +1417,7 @@
 				3D026C8E26F7A61500F671E5 /* SDAnimatedImage.m in Sources */,
 				3D026B9426F79D3F00F671E5 /* MBProgressHUD.m in Sources */,
 				3D026CBA26F7A61500F671E5 /* UIView+WebCacheOperation.m in Sources */,
+				3D7E3BC82704ADD4000BC34B /* HHJWebView.m in Sources */,
 				3D026C8A26F7A61500F671E5 /* SDWebImageDownloaderDecryptor.m in Sources */,
 				3D026C9426F7A61500F671E5 /* SDWebImageDownloader.m in Sources */,
 				3D026CB226F7A61500F671E5 /* UIImageView+WebCache.m in Sources */,
@@ -1354,12 +1434,14 @@
 				3D026B8926F79D3F00F671E5 /* MASCompositeConstraint.m in Sources */,
 				3D026C9026F7A61500F671E5 /* UIImage+ForceDecode.m in Sources */,
 				3D026AB926F78FBF00F671E5 /* main.m in Sources */,
+				3D7E3BC32704ADD4000BC34B /* HHJHousingFundView.m in Sources */,
 				3D026B9826F79D3F00F671E5 /* AFURLRequestSerialization.m in Sources */,
 				3D026B9526F79D3F00F671E5 /* AFURLResponseSerialization.m in Sources */,
 				3D026CAF26F7A61500F671E5 /* SDWebImageTransition.m in Sources */,
 				3D026BEF26F7A47600F671E5 /* HHJDeviceDetect.m in Sources */,
 				3D026C9326F7A61500F671E5 /* UIImage+Transform.m in Sources */,
 				3D026B8D26F79D3F00F671E5 /* View+MASAdditions.m in Sources */,
+				3D7E3BC62704ADD4000BC34B /* HHJPersonalLoansView.m in Sources */,
 				3D026CB926F7A61500F671E5 /* SDWebImageOptionsProcessor.m in Sources */,
 				3D026B8A26F79D3F00F671E5 /* MASConstraintMaker.m in Sources */,
 				3D026C8926F7A61500F671E5 /* SDWebImageOperation.m in Sources */,
