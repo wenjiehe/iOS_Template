@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HHJComponentModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

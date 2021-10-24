@@ -143,7 +143,6 @@
 		3DA3C1EB272550D400BB5E7F /* HHJHomeBannerTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1EA272550D400BB5E7F /* HHJHomeBannerTemplateView.m */; };
 		3DA3C1ED272551EB00BB5E7F /* HHJPublicTemplate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */; };
 		3DA3C1F12725578000BB5E7F /* HHJTemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */; };
-		3DA3C1F427255BFC00BB5E7F /* HHJComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */; };
 		3DA3C1F7272567F800BB5E7F /* HHJTemplateCompontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */; };
 /* End PBXBuildFile section */
 
@@ -439,8 +438,6 @@
 		3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HHJPublicTemplate.plist; sourceTree = "<group>"; };
 		3DA3C1EF2725578000BB5E7F /* HHJTemplateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTemplateManager.h; sourceTree = "<group>"; };
 		3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateManager.m; sourceTree = "<group>"; };
-		3DA3C1F227255BFC00BB5E7F /* HHJComponentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJComponentModel.h; sourceTree = "<group>"; };
-		3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJComponentModel.m; sourceTree = "<group>"; };
 		3DA3C1F5272567F800BB5E7F /* HHJTemplateCompontView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTemplateCompontView.h; sourceTree = "<group>"; };
 		3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateCompontView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1338,8 +1335,6 @@
 			children = (
 				3DA3C1D42725414300BB5E7F /* HHJBaseModel.h */,
 				3DA3C1D52725414300BB5E7F /* HHJBaseModel.m */,
-				3DA3C1F227255BFC00BB5E7F /* HHJComponentModel.h */,
-				3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1573,7 +1568,6 @@
 				3D026CC526F7A61600F671E5 /* SDFileAttributeHelper.m in Sources */,
 				3D026CC726F7A61600F671E5 /* SDDisplayLink.m in Sources */,
 				3DA3C1CB2723162C00BB5E7F /* HHJHomeNavigationController.m in Sources */,
-				3DA3C1F427255BFC00BB5E7F /* HHJComponentModel.m in Sources */,
 				3D026BF526F7A4B000F671E5 /* NSObject+HHJScreenDetect.m in Sources */,
 				3D026CBD26F7A61500F671E5 /* UIButton+WebCache.m in Sources */,
 				3D026CA726F7A61500F671E5 /* UIImage+ExtendedCacheData.m in Sources */,
