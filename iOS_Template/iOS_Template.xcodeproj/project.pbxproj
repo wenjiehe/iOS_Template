@@ -144,6 +144,7 @@
 		3DA3C1ED272551EB00BB5E7F /* HHJPublicTemplate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */; };
 		3DA3C1F12725578000BB5E7F /* HHJTemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */; };
 		3DA3C1F7272567F800BB5E7F /* HHJTemplateCompontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */; };
+		3DA3C1FA27257CB500BB5E7F /* HHJErrorTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F927257CB500BB5E7F /* HHJErrorTemplateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -440,6 +441,8 @@
 		3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateManager.m; sourceTree = "<group>"; };
 		3DA3C1F5272567F800BB5E7F /* HHJTemplateCompontView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTemplateCompontView.h; sourceTree = "<group>"; };
 		3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateCompontView.m; sourceTree = "<group>"; };
+		3DA3C1F827257CB500BB5E7F /* HHJErrorTemplateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJErrorTemplateView.h; sourceTree = "<group>"; };
+		3DA3C1F927257CB500BB5E7F /* HHJErrorTemplateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJErrorTemplateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -905,6 +908,8 @@
 				3DA3C1D82725489200BB5E7F /* HHJBaseTemplateView.m */,
 				3DA3C1F5272567F800BB5E7F /* HHJTemplateCompontView.h */,
 				3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */,
+				3DA3C1F827257CB500BB5E7F /* HHJErrorTemplateView.h */,
+				3DA3C1F927257CB500BB5E7F /* HHJErrorTemplateView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1500,6 +1505,7 @@
 				3D026CC026F7A61500F671E5 /* SDImageCachesManagerOperation.m in Sources */,
 				3DA3C1C5272315BB00BB5E7F /* HHJBaseNavigationController.m in Sources */,
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
+				3DA3C1FA27257CB500BB5E7F /* HHJErrorTemplateView.m in Sources */,
 				3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */,
 				3D026D1D26FB7FF400F671E5 /* HHJUserAuthorization.m in Sources */,
 				3D026C9226F7A61500F671E5 /* SDAnimatedImagePlayer.m in Sources */,

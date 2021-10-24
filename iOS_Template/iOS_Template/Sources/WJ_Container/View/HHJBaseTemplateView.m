@@ -10,6 +10,7 @@
 #import "HHJTemplateManager.h"
 #import "HHJ_TemplateProtocol.h"
 #import "HHJTemplateCompontView.h"
+#import "HHJErrorTemplateView.h"
 
 @interface HHJBaseTemplateView ()
 
@@ -49,11 +50,15 @@
         HHJTemplateManager *manager = [HHJTemplateManager shareInstance];
         NSString *className = [manager getTemplateWithStyleType:model.styleType];
         if (!className) {
-            //没找到对应的模板类型
+            HHJErrorTemplateView *errorTemplateView = [self setupErrorTemplateFloorWithMessage:[NSString stringWithFormat:@"没找到对应的模板风格类型%@, 请检查配置文件HHJPublicTemplate-styleType", model.styleType]];
+            currentHeight = [errorTemplateView getTemplateHeightWithModel:model];
+            tempView = errorTemplateView;
         }else{
             Class templateClass = NSClassFromString(className);
             if (!templateClass) {
-                //没找到对应的模板实现文件
+                HHJErrorTemplateView *errorTemplateView = [self setupErrorTemplateFloorWithMessage:[NSString stringWithFormat:@"没找到对应的模板实现文件%@, 请检查配置文件HHJPublicTemplate-classView", className]];
+                currentHeight = [errorTemplateView getTemplateHeightWithModel:model];
+                tempView = errorTemplateView;
             }else{
                 HHJTemplateCompontView<HHJ_TemplateProtocol> *templateView;
                 if (self.compontViewMtbAry.count == 0) {
@@ -64,12 +69,15 @@
                     isHave = YES;
                 }
                 if (![templateView isKindOfClass:[HHJTemplateCompontView class]]) {
-                    //必须继承HHJTemplateCompontView类
+                    HHJErrorTemplateView *errorTemplateView = [self setupErrorTemplateFloorWithMessage:[NSString stringWithFormat:@"没有继承于HHJTemplateCompontView类%@, 必须继承于HHJTemplateCompontView类"]];
+                    currentHeight = [errorTemplateView getTemplateHeightWithModel:model];
+                    tempView = errorTemplateView;
                 }else{
                     BOOL isConform = [templateView conformsToProtocol:@protocol(HHJ_TemplateProtocol)];
                     if (!isConform) {
-                        //模板实现文件没有遵循HHJ_TemplateProtocol协议
-                        
+                        HHJErrorTemplateView *errorTemplateView = [self setupErrorTemplateFloorWithMessage:[NSString stringWithFormat:@"没有实现HHJ_TemplateProtocol协议%@, 必须实现HHJ_TemplateProtocol协议"]];
+                        currentHeight = [errorTemplateView getTemplateHeightWithModel:model];
+                        tempView = errorTemplateView;
                     }else{
                         [self.containerView addSubview:templateView];
                         if (!isHave) {
@@ -85,19 +93,19 @@
         }
     }else{
         //没找到对应的模板类型
+        HHJErrorTemplateView *errorTemplateView = [self setupErrorTemplateFloorWithMessage:[NSString stringWithFormat:@"model数据为nil"]];
+        currentHeight = [errorTemplateView getTemplateHeightWithModel:model];
+        tempView = errorTemplateView;
     }
     
     if (tempView) {
-        [tempView mas_makeConstraints:^(MASConstraintMaker *make) {
+        [tempView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(self.containerView);
             make.left.right.mas_equalTo(self.containerView);
             make.height.mas_equalTo(currentHeight.floatValue);
         }];
     }
     
-    if (isHave) {
-        
-    }
     model.height = currentHeight;
 }
 
@@ -110,6 +118,18 @@
         model.height = [templateView getTemplateHeightWithModel:model];
     }
     return model.height;
+}
+
+#pragma mark -- 错误提示view
+- (HHJErrorTemplateView *)setupErrorTemplateFloorWithMessage:(NSString *)message
+{
+    HHJErrorTemplateView<HHJ_TemplateProtocol> *errorTemplateView = [[HHJErrorTemplateView alloc] init];
+    [self.containerView addSubview:errorTemplateView];
+    //模板必须实现的协议，否则崩溃
+    [errorTemplateView setupAllSubviews];
+    [errorTemplateView setupMessage:message];
+    
+    return errorTemplateView;
 }
 
 /*

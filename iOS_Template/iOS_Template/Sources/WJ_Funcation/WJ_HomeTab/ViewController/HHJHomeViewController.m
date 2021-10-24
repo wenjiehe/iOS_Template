@@ -28,6 +28,14 @@
     NSLog(@"homeType = %@", self.homeType);
     self.view.backgroundColor = [UIColor colorWithRed:(arc4random() % 255) / 255.f green:(arc4random() % 255) / 255.f  blue:(arc4random() % 255) / 255.f alpha:1.f];
 //    self.isHiddenTableView = YES; //隐藏tableview
+    
+    HHJBaseModel *model = [[HHJBaseModel alloc] init];
+
+    model.dataDic = @{@"title" : @""};
+    model.styleType = @"homeGrid";
+
+    self.dataAry = @[model];
+    [self reloadTableData];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -38,15 +46,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    HHJBaseModel *model = [[HHJBaseModel alloc] init];
-
-    model.dataDic = @{@"title" : @"suib亲爱"};
-    model.styleType = @"homeGrid";
-
-    self.dataAry = @[model];
-    [self reloadTableData];
-    
+    [super viewDidAppear:animated];    
 }
 
 - (void)viewWillDisappear:(BOOL)animated{

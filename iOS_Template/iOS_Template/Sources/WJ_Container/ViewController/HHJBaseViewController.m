@@ -9,6 +9,7 @@
 #import "HHJGlobalConstant.h"
 #import "HHJBaseTableViewCell.h"
 #import "HHJBaseModel.h"
+#import "HHJTemplateManager.h"
 
 @interface HHJBaseViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -33,6 +34,17 @@
     } else {
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
+    
+    [HHJTemplateManager shareInstance].templeteJumpEvent = ^(HHJBaseModel * _Nonnull model, NSInteger index, NSDictionary * _Nonnull extendInfo) {
+        //响应点击事件
+        HHJBaseModel *mod = [[HHJBaseModel alloc] init];
+    
+        mod.dataDic = @{@"title" : @"suib亲爱"};
+        mod.styleType = @"homeGrid";
+    
+        self.dataAry = @[mod];
+        [self reloadTableData];
+    };
 }
 
 - (void)setDataAry:(NSArray *)dataAry{
