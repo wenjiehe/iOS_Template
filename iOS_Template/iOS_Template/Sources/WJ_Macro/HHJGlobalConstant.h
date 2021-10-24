@@ -8,7 +8,19 @@
 #ifndef HHJGlobalConstant_h
 #define HHJGlobalConstant_h
 
+#import "Masonry.h"
+
 //其他宏定义
+
+#define HHJ_MediumFont_(i) (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? [UIFont fontWithName:@"PingFangSC-Medium" size:i] : [UIFont fontWithName:@"STHeitiSC-Medium" size:i])
+
+#define HHJ_RegularFont_(i) (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? [UIFont fontWithName:@"PingFangSC-Regular" size:i] : [UIFont fontWithName:@"STHeitiSC-Light" size:i])
+
+#define HHJ_BoldFont_(i) (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? [UIFont fontWithName:@"PingFangSC-Bold" size:i] : [UIFont fontWithName:@"STHeitiSC-Light" size:i])
+
+#define HHJ_SemiBoldFont_(i) (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? [UIFont fontWithName:@"PingFangSC-Semibold" size:i] : [UIFont fontWithName:@"STHeitiSC-Light" size:i])
+
+#define HHJ_HeavyFont_(i) (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? [UIFont fontWithName:@"PingFangSC-Heavy" size:i] : [UIFont fontWithName:@"STHeitiSC-Light" size:i])
 
 #pragma mark - ================  Frame ================
 //状态栏高度

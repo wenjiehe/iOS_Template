@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D026AA826F78FA600F671E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026AA726F78FA600F671E5 /* AppDelegate.m */; };
-		3D026AAB26F78FA600F671E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026AAA26F78FA600F671E5 /* SceneDelegate.m */; };
 		3D026AAE26F78FA600F671E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026AAD26F78FA600F671E5 /* ViewController.m */; };
 		3D026AB126F78FA600F671E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D026AAF26F78FA600F671E5 /* Main.storyboard */; };
 		3D026AB326F78FBF00F671E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D026AB226F78FBF00F671E5 /* Assets.xcassets */; };
@@ -134,14 +133,16 @@
 		3D7E3BC92704ADD4000BC34B /* HHJCustomCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BC02704ADD4000BC34B /* HHJCustomCalendar.m */; };
 		3D7E3BCC2704B9B5000BC34B /* NSString+HHJBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BCB2704B9B5000BC34B /* NSString+HHJBase.m */; };
 		3D7E3BCF2709E73A000BC34B /* NSObject+HHJHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E3BCE2709E73A000BC34B /* NSObject+HHJHttpRequest.m */; };
+		3DA3C1BF2722E4B300BB5E7F /* HHJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1BE2722E4B300BB5E7F /* HHJHomeViewController.m */; };
+		3DA3C1C5272315BB00BB5E7F /* HHJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1C4272315BB00BB5E7F /* HHJBaseNavigationController.m */; };
+		3DA3C1CB2723162C00BB5E7F /* HHJHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1CA2723162C00BB5E7F /* HHJHomeNavigationController.m */; };
+		3DA3C1CE2723171000BB5E7F /* HHJCustomTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1CC2723171000BB5E7F /* HHJCustomTabBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D026AA326F78FA500F671E5 /* iOS_Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D026AA626F78FA500F671E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D026AA726F78FA600F671E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D026AA926F78FA600F671E5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3D026AAA26F78FA600F671E5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3D026AAC26F78FA600F671E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3D026AAD26F78FA600F671E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D026AB026F78FA600F671E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -410,6 +411,14 @@
 		3D7E3BCB2704B9B5000BC34B /* NSString+HHJBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HHJBase.m"; sourceTree = "<group>"; };
 		3D7E3BCD2709E73A000BC34B /* NSObject+HHJHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HHJHttpRequest.h"; sourceTree = "<group>"; };
 		3D7E3BCE2709E73A000BC34B /* NSObject+HHJHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HHJHttpRequest.m"; sourceTree = "<group>"; };
+		3DA3C1BD2722E4B300BB5E7F /* HHJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJHomeViewController.h; sourceTree = "<group>"; };
+		3DA3C1BE2722E4B300BB5E7F /* HHJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJHomeViewController.m; sourceTree = "<group>"; };
+		3DA3C1C3272315BB00BB5E7F /* HHJBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJBaseNavigationController.h; sourceTree = "<group>"; };
+		3DA3C1C4272315BB00BB5E7F /* HHJBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJBaseNavigationController.m; sourceTree = "<group>"; };
+		3DA3C1C92723162C00BB5E7F /* HHJHomeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJHomeNavigationController.h; sourceTree = "<group>"; };
+		3DA3C1CA2723162C00BB5E7F /* HHJHomeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJHomeNavigationController.m; sourceTree = "<group>"; };
+		3DA3C1CC2723171000BB5E7F /* HHJCustomTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJCustomTabBarView.m; sourceTree = "<group>"; };
+		3DA3C1CD2723171000BB5E7F /* HHJCustomTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJCustomTabBarView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,8 +456,6 @@
 				3D026ABF26F79D3D00F671E5 /* Vender */,
 				3D026AA626F78FA500F671E5 /* AppDelegate.h */,
 				3D026AA726F78FA600F671E5 /* AppDelegate.m */,
-				3D026AA926F78FA600F671E5 /* SceneDelegate.h */,
-				3D026AAA26F78FA600F671E5 /* SceneDelegate.m */,
 				3D026AAC26F78FA600F671E5 /* ViewController.h */,
 				3D026AAD26F78FA600F671E5 /* ViewController.m */,
 				3D026AAF26F78FA600F671E5 /* Main.storyboard */,
@@ -647,6 +654,8 @@
 		3D026B7026F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3C1CD2723171000BB5E7F /* HHJCustomTabBarView.h */,
+				3DA3C1CC2723171000BB5E7F /* HHJCustomTabBarView.m */,
 				3D026D0426F9C01500F671E5 /* HHJTabBarViewController.h */,
 				3D026D0526F9C01500F671E5 /* HHJTabBarViewController.m */,
 			);
@@ -724,6 +733,10 @@
 		3D026B7926F79D3E00F671E5 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3C1BD2722E4B300BB5E7F /* HHJHomeViewController.h */,
+				3DA3C1BE2722E4B300BB5E7F /* HHJHomeViewController.m */,
+				3DA3C1C92723162C00BB5E7F /* HHJHomeNavigationController.h */,
+				3DA3C1CA2723162C00BB5E7F /* HHJHomeNavigationController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -827,6 +840,8 @@
 			children = (
 				3D026CCA26F846B600F671E5 /* HHJBaseViewController.h */,
 				3D026CCB26F846B600F671E5 /* HHJBaseViewController.m */,
+				3DA3C1C3272315BB00BB5E7F /* HHJBaseNavigationController.h */,
+				3DA3C1C4272315BB00BB5E7F /* HHJBaseNavigationController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1359,6 +1374,7 @@
 				3D026CBE26F7A61500F671E5 /* SDWebImageDownloaderRequestModifier.m in Sources */,
 				3D7E3BCC2704B9B5000BC34B /* NSString+HHJBase.m in Sources */,
 				3D026CC026F7A61500F671E5 /* SDImageCachesManagerOperation.m in Sources */,
+				3DA3C1C5272315BB00BB5E7F /* HHJBaseNavigationController.m in Sources */,
 				3D026C9F26F7A61500F671E5 /* SDWebImageDownloaderResponseModifier.m in Sources */,
 				3D026D1A26FA164500F671E5 /* UINavigationController+HHJMemory.m in Sources */,
 				3D026D1D26FB7FF400F671E5 /* HHJUserAuthorization.m in Sources */,
@@ -1411,18 +1427,21 @@
 				3D026B8826F79D3F00F671E5 /* ViewController+MASAdditions.m in Sources */,
 				3D026C9E26F7A61500F671E5 /* SDImageAPNGCoder.m in Sources */,
 				3D026B9226F79D3F00F671E5 /* NSObject+YYModel.m in Sources */,
+				3DA3C1BF2722E4B300BB5E7F /* HHJHomeViewController.m in Sources */,
 				3D026BEC26F7A43200F671E5 /* HHJAppDetect.m in Sources */,
 				3D026C8D26F7A61500F671E5 /* UIImageView+HighlightedWebCache.m in Sources */,
 				3D026CC326F7A61600F671E5 /* SDWeakProxy.m in Sources */,
 				3D026C8E26F7A61500F671E5 /* SDAnimatedImage.m in Sources */,
 				3D026B9426F79D3F00F671E5 /* MBProgressHUD.m in Sources */,
 				3D026CBA26F7A61500F671E5 /* UIView+WebCacheOperation.m in Sources */,
+				3DA3C1CE2723171000BB5E7F /* HHJCustomTabBarView.m in Sources */,
 				3D7E3BC82704ADD4000BC34B /* HHJWebView.m in Sources */,
 				3D026C8A26F7A61500F671E5 /* SDWebImageDownloaderDecryptor.m in Sources */,
 				3D026C9426F7A61500F671E5 /* SDWebImageDownloader.m in Sources */,
 				3D026CB226F7A61500F671E5 /* UIImageView+WebCache.m in Sources */,
 				3D026CC526F7A61600F671E5 /* SDFileAttributeHelper.m in Sources */,
 				3D026CC726F7A61600F671E5 /* SDDisplayLink.m in Sources */,
+				3DA3C1CB2723162C00BB5E7F /* HHJHomeNavigationController.m in Sources */,
 				3D026BF526F7A4B000F671E5 /* NSObject+HHJScreenDetect.m in Sources */,
 				3D026CBD26F7A61500F671E5 /* UIButton+WebCache.m in Sources */,
 				3D026CA726F7A61500F671E5 /* UIImage+ExtendedCacheData.m in Sources */,
@@ -1466,7 +1485,6 @@
 				3D026B9926F79D3F00F671E5 /* AFNetworkReachabilityManager.m in Sources */,
 				3D026CB326F7A61500F671E5 /* SDImageGraphics.m in Sources */,
 				3D026CB526F7A61500F671E5 /* UIImage+MemoryCacheCost.m in Sources */,
-				3D026AAB26F78FA600F671E5 /* SceneDelegate.m in Sources */,
 				3D026CB026F7A61500F671E5 /* SDImageTransformer.m in Sources */,
 				3D026CB426F7A61500F671E5 /* SDImageCacheDefine.m in Sources */,
 				3D026CA526F7A61500F671E5 /* SDDiskCache.m in Sources */,

@@ -49,8 +49,6 @@
 //        return NO;
 //    }];
     
-    NSDictionary *dic = [HHJVideoUtils getNetworkVideoInfo:@"https://haokan.baidu.com/v?pd=wisenatural&vid=12790773542049317089"];
-    HHJLog(@"dic = %@", dic);
 }
 
 @end
