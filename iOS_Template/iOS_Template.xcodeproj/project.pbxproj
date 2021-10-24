@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D026AA826F78FA600F671E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026AA726F78FA600F671E5 /* AppDelegate.m */; };
-		3D026AAE26F78FA600F671E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D026AAD26F78FA600F671E5 /* ViewController.m */; };
 		3D026AB126F78FA600F671E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D026AAF26F78FA600F671E5 /* Main.storyboard */; };
 		3D026AB326F78FBF00F671E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D026AB226F78FBF00F671E5 /* Assets.xcassets */; };
 		3D026AB626F78FBF00F671E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D026AB426F78FBF00F671E5 /* LaunchScreen.storyboard */; };
@@ -137,14 +136,21 @@
 		3DA3C1C5272315BB00BB5E7F /* HHJBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1C4272315BB00BB5E7F /* HHJBaseNavigationController.m */; };
 		3DA3C1CB2723162C00BB5E7F /* HHJHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1CA2723162C00BB5E7F /* HHJHomeNavigationController.m */; };
 		3DA3C1CE2723171000BB5E7F /* HHJCustomTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1CC2723171000BB5E7F /* HHJCustomTabBarView.m */; };
+		3DA3C1D227253DB200BB5E7F /* HHJBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1D127253DB200BB5E7F /* HHJBaseTableViewCell.m */; };
+		3DA3C1D62725414300BB5E7F /* HHJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1D52725414300BB5E7F /* HHJBaseModel.m */; };
+		3DA3C1D92725489200BB5E7F /* HHJBaseTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1D82725489200BB5E7F /* HHJBaseTemplateView.m */; };
+		3DA3C1E8272550AE00BB5E7F /* HHJHomeGridTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1E7272550AE00BB5E7F /* HHJHomeGridTemplateView.m */; };
+		3DA3C1EB272550D400BB5E7F /* HHJHomeBannerTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1EA272550D400BB5E7F /* HHJHomeBannerTemplateView.m */; };
+		3DA3C1ED272551EB00BB5E7F /* HHJPublicTemplate.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */; };
+		3DA3C1F12725578000BB5E7F /* HHJTemplateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */; };
+		3DA3C1F427255BFC00BB5E7F /* HHJComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */; };
+		3DA3C1F7272567F800BB5E7F /* HHJTemplateCompontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D026AA326F78FA500F671E5 /* iOS_Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D026AA626F78FA500F671E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D026AA726F78FA600F671E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D026AAC26F78FA600F671E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D026AAD26F78FA600F671E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D026AB026F78FA600F671E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D026AB226F78FBF00F671E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D026AB526F78FBF00F671E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -419,6 +425,24 @@
 		3DA3C1CA2723162C00BB5E7F /* HHJHomeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJHomeNavigationController.m; sourceTree = "<group>"; };
 		3DA3C1CC2723171000BB5E7F /* HHJCustomTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHJCustomTabBarView.m; sourceTree = "<group>"; };
 		3DA3C1CD2723171000BB5E7F /* HHJCustomTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHJCustomTabBarView.h; sourceTree = "<group>"; };
+		3DA3C1D027253DB200BB5E7F /* HHJBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJBaseTableViewCell.h; sourceTree = "<group>"; };
+		3DA3C1D127253DB200BB5E7F /* HHJBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJBaseTableViewCell.m; sourceTree = "<group>"; };
+		3DA3C1D42725414300BB5E7F /* HHJBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJBaseModel.h; sourceTree = "<group>"; };
+		3DA3C1D52725414300BB5E7F /* HHJBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJBaseModel.m; sourceTree = "<group>"; };
+		3DA3C1D72725489200BB5E7F /* HHJBaseTemplateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJBaseTemplateView.h; sourceTree = "<group>"; };
+		3DA3C1D82725489200BB5E7F /* HHJBaseTemplateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJBaseTemplateView.m; sourceTree = "<group>"; };
+		3DA3C1DD27254B2000BB5E7F /* HHJ_TemplateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJ_TemplateProtocol.h; sourceTree = "<group>"; };
+		3DA3C1E6272550AE00BB5E7F /* HHJHomeGridTemplateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJHomeGridTemplateView.h; sourceTree = "<group>"; };
+		3DA3C1E7272550AE00BB5E7F /* HHJHomeGridTemplateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJHomeGridTemplateView.m; sourceTree = "<group>"; };
+		3DA3C1E9272550D400BB5E7F /* HHJHomeBannerTemplateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJHomeBannerTemplateView.h; sourceTree = "<group>"; };
+		3DA3C1EA272550D400BB5E7F /* HHJHomeBannerTemplateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJHomeBannerTemplateView.m; sourceTree = "<group>"; };
+		3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HHJPublicTemplate.plist; sourceTree = "<group>"; };
+		3DA3C1EF2725578000BB5E7F /* HHJTemplateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTemplateManager.h; sourceTree = "<group>"; };
+		3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateManager.m; sourceTree = "<group>"; };
+		3DA3C1F227255BFC00BB5E7F /* HHJComponentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJComponentModel.h; sourceTree = "<group>"; };
+		3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJComponentModel.m; sourceTree = "<group>"; };
+		3DA3C1F5272567F800BB5E7F /* HHJTemplateCompontView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHJTemplateCompontView.h; sourceTree = "<group>"; };
+		3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHJTemplateCompontView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,8 +480,6 @@
 				3D026ABF26F79D3D00F671E5 /* Vender */,
 				3D026AA626F78FA500F671E5 /* AppDelegate.h */,
 				3D026AA726F78FA600F671E5 /* AppDelegate.m */,
-				3D026AAC26F78FA600F671E5 /* ViewController.h */,
-				3D026AAD26F78FA600F671E5 /* ViewController.m */,
 				3D026AAF26F78FA600F671E5 /* Main.storyboard */,
 				3D026AB226F78FBF00F671E5 /* Assets.xcassets */,
 				3D026AB426F78FBF00F671E5 /* LaunchScreen.storyboard */,
@@ -566,6 +588,7 @@
 		3D026B6826F79D3E00F671E5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3C1DE27254EE400BB5E7F /* WJ_PublicTemplateView */,
 				3D026BDA26F7A17A00F671E5 /* WJ_PublicComponent */,
 				3D026B6926F79D3E00F671E5 /* WJ_Network */,
 				3D026B6A26F79D3E00F671E5 /* WJ_Macro */,
@@ -821,6 +844,9 @@
 		3D026B8326F79D3E00F671E5 /* WJ_Container */ = {
 			isa = PBXGroup;
 			children = (
+				3DA3C1EE2725575B00BB5E7F /* Manager */,
+				3DA3C1D327253F2C00BB5E7F /* Model */,
+				3DA3C1CF27253D8F00BB5E7F /* Cell */,
 				3D026BD826F7A12200F671E5 /* View */,
 				3D026B8426F79D3E00F671E5 /* Resources */,
 				3D026B8526F79D3E00F671E5 /* ViewController */,
@@ -878,6 +904,10 @@
 			isa = PBXGroup;
 			children = (
 				3D026BD926F7A12200F671E5 /* WebView */,
+				3DA3C1D72725489200BB5E7F /* HHJBaseTemplateView.h */,
+				3DA3C1D82725489200BB5E7F /* HHJBaseTemplateView.m */,
+				3DA3C1F5272567F800BB5E7F /* HHJTemplateCompontView.h */,
+				3DA3C1F6272567F800BB5E7F /* HHJTemplateCompontView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1203,6 +1233,7 @@
 				3D026CE626F9118B00F671E5 /* HHJ_LoginProtocol.h */,
 				3D026CF526F9AC6600F671E5 /* HHJ_CameraProtocol.h */,
 				3D026D0C26F9C0B600F671E5 /* HHJ_RegisterProtocol.h */,
+				3DA3C1DD27254B2000BB5E7F /* HHJ_TemplateProtocol.h */,
 			);
 			path = ServiceProtocols;
 			sourceTree = "<group>";
@@ -1293,6 +1324,103 @@
 			path = WJCalendar;
 			sourceTree = "<group>";
 		};
+		3DA3C1CF27253D8F00BB5E7F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1D027253DB200BB5E7F /* HHJBaseTableViewCell.h */,
+				3DA3C1D127253DB200BB5E7F /* HHJBaseTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3DA3C1D327253F2C00BB5E7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1D42725414300BB5E7F /* HHJBaseModel.h */,
+				3DA3C1D52725414300BB5E7F /* HHJBaseModel.m */,
+				3DA3C1F227255BFC00BB5E7F /* HHJComponentModel.h */,
+				3DA3C1F327255BFC00BB5E7F /* HHJComponentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DA3C1DE27254EE400BB5E7F /* WJ_PublicTemplateView */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1E227254F4A00BB5E7F /* Community */,
+				3DA3C1E127254F4A00BB5E7F /* Home */,
+				3DA3C1DF27254F4A00BB5E7F /* Life */,
+				3DA3C1E027254F4A00BB5E7F /* Message */,
+				3DA3C1E327254F4A00BB5E7F /* Mine */,
+				3DA3C1EC272551EB00BB5E7F /* HHJPublicTemplate.plist */,
+			);
+			path = WJ_PublicTemplateView;
+			sourceTree = "<group>";
+		};
+		3DA3C1DF27254F4A00BB5E7F /* Life */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		3DA3C1E027254F4A00BB5E7F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		3DA3C1E127254F4A00BB5E7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1E42725508600BB5E7F /* HomeBanner */,
+				3DA3C1E52725508700BB5E7F /* HomeGrid */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3DA3C1E227254F4A00BB5E7F /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		3DA3C1E327254F4A00BB5E7F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3DA3C1E42725508600BB5E7F /* HomeBanner */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1E9272550D400BB5E7F /* HHJHomeBannerTemplateView.h */,
+				3DA3C1EA272550D400BB5E7F /* HHJHomeBannerTemplateView.m */,
+			);
+			path = HomeBanner;
+			sourceTree = "<group>";
+		};
+		3DA3C1E52725508700BB5E7F /* HomeGrid */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1E6272550AE00BB5E7F /* HHJHomeGridTemplateView.h */,
+				3DA3C1E7272550AE00BB5E7F /* HHJHomeGridTemplateView.m */,
+			);
+			path = HomeGrid;
+			sourceTree = "<group>";
+		};
+		3DA3C1EE2725575B00BB5E7F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3DA3C1EF2725578000BB5E7F /* HHJTemplateManager.h */,
+				3DA3C1F02725578000BB5E7F /* HHJTemplateManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1351,6 +1479,7 @@
 			files = (
 				3D026AB626F78FBF00F671E5 /* LaunchScreen.storyboard in Resources */,
 				3D026AB326F78FBF00F671E5 /* Assets.xcassets in Resources */,
+				3DA3C1ED272551EB00BB5E7F /* HHJPublicTemplate.plist in Resources */,
 				3D026AB126F78FA600F671E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1385,15 +1514,17 @@
 				3D026C9C26F7A61500F671E5 /* SDMemoryCache.m in Sources */,
 				3D026CB826F7A61500F671E5 /* SDWebImageDefine.m in Sources */,
 				3D026B9026F79D3F00F671E5 /* MASViewAttribute.m in Sources */,
-				3D026AAE26F78FA600F671E5 /* ViewController.m in Sources */,
 				3D026CA626F7A61500F671E5 /* SDAnimatedImageRep.m in Sources */,
 				3D026CC226F7A61600F671E5 /* SDDeviceHelper.m in Sources */,
 				3D026CE326F8E19700F671E5 /* FixedCoordinatesUtil.m in Sources */,
 				3D026CA026F7A61500F671E5 /* SDWebImageError.m in Sources */,
 				3D026AA826F78FA600F671E5 /* AppDelegate.m in Sources */,
+				3DA3C1E8272550AE00BB5E7F /* HHJHomeGridTemplateView.m in Sources */,
 				3D026C8826F7A61500F671E5 /* SDImageCoder.m in Sources */,
 				3D026CEA26F9123D00F671E5 /* HHJ_LoginService.m in Sources */,
 				3D026CC426F7A61600F671E5 /* SDInternalMacros.m in Sources */,
+				3DA3C1F12725578000BB5E7F /* HHJTemplateManager.m in Sources */,
+				3DA3C1D227253DB200BB5E7F /* HHJBaseTableViewCell.m in Sources */,
 				3D026B9726F79D3F00F671E5 /* AFURLSessionManager.m in Sources */,
 				3D7E3BC92704ADD4000BC34B /* HHJCustomCalendar.m in Sources */,
 				3D026C9826F7A61500F671E5 /* SDGraphicsImageRenderer.m in Sources */,
@@ -1442,15 +1573,19 @@
 				3D026CC526F7A61600F671E5 /* SDFileAttributeHelper.m in Sources */,
 				3D026CC726F7A61600F671E5 /* SDDisplayLink.m in Sources */,
 				3DA3C1CB2723162C00BB5E7F /* HHJHomeNavigationController.m in Sources */,
+				3DA3C1F427255BFC00BB5E7F /* HHJComponentModel.m in Sources */,
 				3D026BF526F7A4B000F671E5 /* NSObject+HHJScreenDetect.m in Sources */,
 				3D026CBD26F7A61500F671E5 /* UIButton+WebCache.m in Sources */,
 				3D026CA726F7A61500F671E5 /* UIImage+ExtendedCacheData.m in Sources */,
 				3D026D1426FA12E300F671E5 /* NSObject+HHJMethodIntercept.m in Sources */,
 				3D026CA326F7A61500F671E5 /* NSButton+WebCache.m in Sources */,
+				3DA3C1D92725489200BB5E7F /* HHJBaseTemplateView.m in Sources */,
 				3D026CBF26F7A61500F671E5 /* UIColor+SDHexString.m in Sources */,
+				3DA3C1EB272550D400BB5E7F /* HHJHomeBannerTemplateView.m in Sources */,
 				3D026CDE26F8DBF700F671E5 /* HHJLocationManager.m in Sources */,
 				3D026CB726F7A61500F671E5 /* SDWebImageCacheKeyFilter.m in Sources */,
 				3D026B8926F79D3F00F671E5 /* MASCompositeConstraint.m in Sources */,
+				3DA3C1F7272567F800BB5E7F /* HHJTemplateCompontView.m in Sources */,
 				3D026C9026F7A61500F671E5 /* UIImage+ForceDecode.m in Sources */,
 				3D026AB926F78FBF00F671E5 /* main.m in Sources */,
 				3D7E3BC32704ADD4000BC34B /* HHJHousingFundView.m in Sources */,
@@ -1473,6 +1608,7 @@
 				3D026CCF26F84ADF00F671E5 /* HHJUserInstance.m in Sources */,
 				3D026D0326F9B68A00F671E5 /* HHJAppManager.m in Sources */,
 				3D026CA926F7A61500F671E5 /* SDImageCache.m in Sources */,
+				3DA3C1D62725414300BB5E7F /* HHJBaseModel.m in Sources */,
 				3D026CC826F7A61600F671E5 /* SDAsyncBlockOperation.m in Sources */,
 				3D026CBB26F7A61500F671E5 /* UIView+WebCache.m in Sources */,
 				3D026B9326F79D3F00F671E5 /* YYClassInfo.m in Sources */,

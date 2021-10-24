@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>homeGrid</key>
+	<dict>
+		<key>styleType</key>
+		<string>homeGrid</string>
+		<key>classView</key>
+		<string>HHJHomeGridTemplateView</string>
+		<key>description</key>
+		<string>首页-宫格</string>
+	</dict>
+</dict>
+</plist>
