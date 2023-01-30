@@ -129,6 +129,7 @@ __attribute__ ((constructor)) static void ok(){
         }
     }
     
+    // 根据能否获取到所有应用来判断是否越狱，已越狱的设备可以读取 未越狱的设备不可以
     // 读取系统所有的应用名称
     if ([[NSFileManager defaultManager] fileExistsAtPath:@"User/Applications/"])
     {
